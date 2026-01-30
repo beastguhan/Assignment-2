@@ -38,12 +38,15 @@ Build Docker Image (Inside Minikube)
 Use Minikube Docker environment:
 
 eval $(minikube docker-env)
+
 docker build -t python-k8s-app:v1 .
 
 kubectl apply -f deployment.yaml
+
 kubectl apply -f service.yaml
 
 🌍 Access the Application
+
 minikube service python-service
 
 
