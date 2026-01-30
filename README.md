@@ -47,5 +47,5 @@ kubectl apply -f service.yaml
 minikube service python-service
 
 
-## 📁 Project Structure
+
 
